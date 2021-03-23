@@ -1,0 +1,83 @@
+body{
+  background: #E9EAEC;
+  line-height: 22px;
+}
+.container{
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  border: 3px solid  #333652;
+}
+.subtitle{
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
+  font-weight: bold;
+  color: #189AB4;
+  letter-spacing: 2px;
+  
+  border-bottom: solid 4px #B2D7DA;
+  width: fit-content;
+  padding: 5px;
+}
+.description{
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 14px;
+  color: #05445E;
+}
+
+/* left-side */
+.container .left-side{
+  width: 280px;
+  background: #ffffff;
+  padding: 16px;
+}
+.container .left-side .photo{
+  width: 97%;
+  height: 270px;
+  margin: 10px;
+}
+.left-side img{
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  border: solid #333652;
+  border-radius: 50%;
+  background: #333652;
+}
+.linkedin{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.github{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.gmail{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+/* right-side */
+.container .right-side{
+  width: 520px;
+  background: #E9EAEC;
+  padding: 25px;
+}
+.container .right-side .full_name {
+  padding: 20px;
+}
+.container .right-side .full_name .name{
+  font-size: 39px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #05445E;
+}
+
+
+
+
+
+
+
+
